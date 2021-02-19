@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Ana's eerste website poging </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div id="green">
+      <h1 class="border">Dit is mijn eerste website</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="box-1">
+      <nav class="navigation-links">
+        <ul class="ul-reset">
+          <li> <a href="index.html"> Home </a></li>
+          <li> <a href="about.html"> About </a> </li>
+          <li> <a href="contact.html"> Contact </a> </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="Form-container">
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label> Email: <input type="email" name="email" /></label>
+          <label> Telephone: <input types="telephone" name="telephone" /></label>
+        </p>
+        <p>
+          <label> Age: <input type="number" name="age" /></label>
+          <label> Birthday: <input type="date" name="birthday" /></label>
+        </p>
+        <p>
+          <label> Female <input type="radio" name="female" /></label>
+          <label> Male <input type="radio" name="female" /></label>
+          <label> Other <input type="radio" name="female" /></label>
+        </p>
+        <p>
+          Favourite cuisine:
+          <label> Mexican <input type="checkbox" name="Mexican" /></label>
+          <label> Italian <input type="checkbox" name="Italian" /></label>
+          <label> Japanese <input type="checkbox" name="Japanese" /></label>
+          <label> Moroccan <input type="checkbox" name="Moroccan" /></label>
+        </p>
+        <p>
+          <label> Favourite colour shorts: <input type="color" name="Favourite color shorts" /> </label>
+        </p>
+        <p>
+          <label> Biography: <textarea name="Biography"></textarea></label>
+        </p>
+        <p>
+          <label> Upload your latest recipe: <input type="file" name="file" /></label>
+        </p>
+        <p>
+          <label> Your Favourite recipe website: <input type="url" name="url" /></label>
+        </p>
+        <p>
+          <button type="submit">Send</button> <button type="reset">Reset</button>
+        </p>
+      </form>
+    </div>
+
+  </main>
+</body>
+
+</html>
